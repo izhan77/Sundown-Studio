@@ -13,12 +13,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
+
 
 #wrapper {
     /* background-color: #000; */
     position: relative;
     z-index: 10;
+}
+
+#wrapper {
+    overflow: hidden;
 }
 
 #page1 {
@@ -340,7 +346,7 @@ nav h3 {
     position: relative;
     /* border-top: 1px solid rgb(152, 150, 150); */
     border-bottom: 1px solid rgb(152, 150, 150);
-    /* display: flex; */
+    display: flex;
     align-items: center;
     justify-content: space-between;
     overflow: hidden;
@@ -350,7 +356,7 @@ nav h3 {
 .element h2 {
     font-family: neue has medium;
     font-size: 4vw;
-    /* padding-top: 4vw; */
+    padding-top: 2vw;
     position: relative;
     z-index: 2;
 }
@@ -413,9 +419,7 @@ nav h3 {
     width: 100%;
     background-color: black;
     overflow: hidden;
-    /* border: 2px solid black; */
     display: flex;
-    /* align-items: center; */
     border-radius: 10px;
 }
 
@@ -433,7 +437,7 @@ nav h3 {
     width: 4px;
     height: 12vw;
     position: relative;
-    transform: translate(8.5vw, 23vw);
+    transform: translate(8.5vw, 12.8vw);
     background-color: #4F4A45;
 }
 
@@ -448,7 +452,7 @@ nav h3 {
 
 #left-cont #headings {
     width: auto;
-    padding: 10vw 0 0 10vw;
+    padding: 0vw 0 0 10vw;
 }
 
 #left-cont #headings h2 a {
@@ -464,10 +468,6 @@ nav h3 {
     color: white;
 }
 
-/* #left-cont #headings h2:hover::after{
-    transform: translateY(10%);
-} */
-
 .p4-content {
     padding-top: 2vw;
     position: absolute;
@@ -476,9 +476,8 @@ nav h3 {
     font-family: neue has light;
     width: 23%;
     color: white;
-    /* background-color: lightblue; */
     line-height: 25px;
-    /* border: 2px solid lightblue; */
+    font-size: 20px;
 }
 
 #right-cont {
@@ -511,11 +510,11 @@ nav h3 {
 }
 
 .swiper {
-    width: 550px;
-    height: 550px;
+    width: 500px;
+    height: 500px;
     position: absolute;
-    left: 25%;
-    top: 72%;
+    left: 30%;
+    top: 77%;
 }
 
 .swiper-slide {
@@ -528,19 +527,20 @@ nav h3 {
 
 .swiper-slide img {
     position: absolute;
-    top: 1vw;
+    top: 5vw;
+    left: 14vw;
     /* display: block; */
-    width: 50%;
+    width: 52%;
 }
 
 .swiper-slide p {
     font-family: neue has medium;
     position: absolute;
     text-align: center;
-    top: 19vw;
-    left: 6vw;
+    top: 20vw;
+    left: 8vw;
     /* display: block; */
-    width: 50%;
+    width: 60%;
 }
 
 
@@ -731,6 +731,7 @@ nav h3 {
 }
 
 #last {
+    background: transparent;
     z-index: 9;
     padding-top: 1.5vw;
     color: white;
@@ -1183,7 +1184,7 @@ nav h3 {
         position: relative;
         /* border-top: 1px solid rgb(152, 150, 150); */
         border-bottom: 1px solid rgb(152, 150, 150);
-        /* display: flex; */
+        display: flex;
         align-items: center;
         justify-content: space-between;
         overflow: hidden;
@@ -1193,7 +1194,7 @@ nav h3 {
     .element h2 {
         font-family: neue has medium;
         font-size: 4vw;
-        /* padding-top: 2vw; */
+        padding-top: 2vw;
         position: relative;
         z-index: 2;
     }
@@ -1248,7 +1249,6 @@ nav h3 {
         width: 100%;
         background-color: #EFEAE3;
         padding: 7vw 2vw;
-        /* box-sizing: border-box; */
     }
 
     #mainContainer {
@@ -1256,9 +1256,7 @@ nav h3 {
         width: 100%;
         background-color: black;
         overflow: hidden;
-        /* border: 2px solid black; */
         display: flex;
-        /* align-items: center; */
         border-radius: 10px;
     }
 
@@ -1276,7 +1274,7 @@ nav h3 {
         width: 4px;
         height: 12vw;
         position: relative;
-        transform: translate(8.5vw, 23vw);
+        transform: translate(8.5vw, 12.8vw);
         background-color: #4F4A45;
     }
 
@@ -1291,7 +1289,7 @@ nav h3 {
 
     #left-cont #headings {
         width: auto;
-        padding: 10vw 0 0 10vw;
+        padding: 0 0 0 10vw;
     }
 
     #left-cont #headings h2 a {
@@ -1317,18 +1315,16 @@ nav h3 {
         overflow: hidden;
         left: 10.8vw;
         font-family: neue has light;
-        width: 23%;
+        width: 33%;
         color: white;
-        /* background-color: lightblue; */
         line-height: 25px;
-        /* border: 2px solid lightblue; */
+        font-size: 20px;
     }
+
 
     #right-cont {
         height: 100%;
         width: 120%;
-        /* background-color: rgb(27, 92, 113); */
-        /* right: 0; */
         border-radius: 10px;
     }
 
@@ -1354,11 +1350,11 @@ nav h3 {
     }
 
     .swiper {
-        width: 550px;
-        height: 550px;
+        width: 500px;
+        height: 500px;
         position: absolute;
         left: 25%;
-        top: 72%;
+        top: 75%;
     }
 
     .swiper-slide {
@@ -1371,7 +1367,7 @@ nav h3 {
 
     .swiper-slide img {
         position: absolute;
-        top: 1vw;
+        top: 9vw;
         /* display: block; */
         width: 50%;
     }
@@ -1380,10 +1376,10 @@ nav h3 {
         font-family: neue has medium;
         position: absolute;
         text-align: center;
-        top: 19vw;
-        left: 6vw;
+        top: 26vw;
+        left: 7vw;
         /* display: block; */
-        width: 50%;
+        width: 60%;
     }
 
 
@@ -1659,6 +1655,32 @@ nav h3 {
         100% {
             opacity: 0;
         }
+    }
+}
+
+
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+
+
+@media (max-width:1068px){
+    #page2-bottom h1{
+        font-size: 5vw;
+        line-height: 5vw;
+    }
+}
+
+@media (max-width:1040px){
+    #page2-bottom h1{
+        font-size: 6.5vw;
+        line-height: 5.5vw;
+    }
+}
+
+@media (max-width:1040px){
+    .p4-content{
+        font-size: 15px;
     }
 }
 
@@ -2112,9 +2134,9 @@ nav h3 {
         overflow: hidden;
         left: 10.8vw;
         font-family: neue has light;
-        width: 30%;
+        width: 33%;
         color: white;
-        /* background-color: lightblue; */
+        font-size: 15px;
         line-height: 25px;
     }
 
@@ -2468,6 +2490,15 @@ nav h3 {
 
 
 }
+
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+
+
+
+
+
 
 /* ------------------------------------------------------------------------------------------------- */
 /* ------------------------------------------------------------------------------------------------- */
@@ -2835,7 +2866,6 @@ nav h3 {
         width: 100%;
         background-color: #EFEAE3;
         padding: 7vw 2vw;
-        /* box-sizing: border-box; */
     }
 
     #mainContainer {
@@ -2865,7 +2895,7 @@ nav h3 {
         width: 4px;
         height: 31vw;
         position: relative;
-        transform: translate(6.5vw, 8vw);
+        transform: translate(6.5vw, 14vw);
         background-color: #4F4A45;
     }
 
@@ -2879,7 +2909,7 @@ nav h3 {
     }
 
     #left-cont #headings {
-        top: -30%;
+        top: 0%;
         font-size: 3vw;
         left: 1%;
         position: relative;
@@ -2901,23 +2931,13 @@ nav h3 {
 
     .p4-content {
         top: -26vw;
-        /* padding-top: 0vw; */
         position: relative;
         overflow: hidden;
         left: 5.8vw;
         font-family: neue has light;
         width: 78%;
         color: white;
-        /* background-color: lightblue; */
         line-height: 25px;
-        /* border: 2px solid lightblue;
-    }
-
-    #right-cont {
-        height: 100%;
-        width: 120%;
-        /* background-color: rgb(27, 92, 113); */
-        /* right: 0; */
         border-radius: 10px;
     }
 
@@ -2927,7 +2947,6 @@ nav h3 {
         background-size: cover;
         transition: all ease 0.3s;
         position: relative;
-        /* transform: translate(45vw, 5.5vw); */
         top: 0.2vw;
         z-index: 25;
         left: 0.1vw;
@@ -2935,7 +2954,6 @@ nav h3 {
         width: 100%;
     }
 
-    /*  */
 
     #page5 {
         height: 109vh;
@@ -2956,13 +2974,11 @@ nav h3 {
         background-size: cover;
         display: flex;
         justify-content: center;
-        /* align-items: center; */
     }
 
     .swiper-slide img {
         position: relative;
         top: 1vw;
-        /* display: block; */
         width: 45%;
         left: -4vw;
         height: 55%;
@@ -3288,16 +3304,6 @@ nav h3 {
         }
     }
 }
-
-
-
-
-
-/* 990, 880 ,770, 700,480 */
-
-/* 
-
-990 done
 
 
  */
